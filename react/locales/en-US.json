@@ -1,0 +1,5 @@
+{
+  "masterdata.home.title": "Master Data Entities",
+  "masterdata.home.loadingConfigs": "Loading configurations...",
+  "masterdata.home.somethingWrong": "Your json schema for \"clients\" data entity is invalid or does not exist."
+}

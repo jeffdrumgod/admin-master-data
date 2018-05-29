@@ -1,0 +1,24 @@
+{
+  "name": "vtex.admin-profile-system",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "eslint **.js"
+  },
+  "dependencies": {
+    "@vtex/styleguide": "^2.0.0-rc.40",
+    "axios": "^0.18.0",
+    "react-jsonschema-table": "0.0.3-beta.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-config-vtex": "^8.0.0",
+    "eslint-config-vtex-react": "^3.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^7.0.0",
+    "prop-types": "^15.5.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-intl": "^2.4.0"
+  }
+}
