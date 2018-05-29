@@ -1,0 +1,22 @@
+{
+  "name": "admin-master-data",
+  "vendor": "vtex",
+  "version": "0.0.1",
+  "title": "VTEX Master Data",
+  "description": "The VTEX admin to manage your data",
+  "mustUpdateAt": "2019-03-01",
+  "categories": [],
+  "registries": ["smartcheckout"],
+  "settingsSchema": {},
+  "scripts": {
+    "prereleasy": "./lint.sh",
+    "postreleasy": "vtex publish --public --verbose"
+  },
+  "dependencies": {
+    "vtex.admin": "1.x"
+  },
+  "builders": {
+    "pages": "0.x",
+    "react": "2.x"
+  }
+}

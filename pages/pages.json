@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "admin/master-data": {
+      "path": "/admin/master-data"
+    }
+  },
+  "extensions": {
+    "admin/master-data": {
+      "component": "index"
+    }
+  }
+}
