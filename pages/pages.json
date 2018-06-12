@@ -7,6 +7,14 @@
   "extensions": {
     "admin/master-data": {
       "component": "index"
+    },
+    "admin/menu/master-data": {
+      "component": "vtex.admin/NavItem",
+      "props": {
+        "icon": "master-data",
+        "path": "/admin/master-data",
+        "titleId": "masterdata.home.title"
+      }
     }
   }
 }

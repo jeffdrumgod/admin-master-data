@@ -1,5 +1,5 @@
 {
-  "masterdata.home.title": "Master Data Entities",
+  "masterdata.home.title": "Master Data",
   "masterdata.home.loadingConfigs": "Carregando configurações...",
   "masterdata.home.somethingWrong": "Seu json schema da entidade de dados \"clients\" está inválido ou não existe."
 }

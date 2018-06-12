@@ -3,12 +3,12 @@ import { FormattedMessage } from 'react-intl'
 
 import Header from './components/Header'
 import DialogModal from './components/DialogModal'
+import TablesPannel from './components/TablesPannel'
 import {
   getVtableDocuments,
 } from './fetcher'
 
-import Spinner from '@vtex/styleguide/lib/Spinner'
-import Card from '@vtex/styleguide/lib/Card'
+import { Spinner } from 'vtex.styleguide'
 
 export default class App extends Component {
   constructor() {
@@ -77,23 +77,7 @@ export default class App extends Component {
           onConfirm={dialog.callback}
           message={dialog.message}
         />
-        <div className="flex items-center ph6">
-          {items.map((item, index) =>{
-            console.log(item)
-            let tables = ''
-            item.tables.forEach((table, index) => {
-              tables += `${table.label}${item.tables.length === (index+1) ? '.':','}`
-            })
-            return (
-              <div className="pa3">
-                <Card key={index}>
-                  <h3>{item.title}</h3>
-                  <p>Tables: {tables}</p>
-                </Card>
-              </div>
-            )
-          })}
-        </div>
+        <TablesPannel items={items} />
       </div>
     )
   }

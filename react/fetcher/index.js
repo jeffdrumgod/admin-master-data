@@ -4,7 +4,7 @@ import {
   SCHEMA_NAME,
 } from '../constants'
 
-export function getSchemaByName() {
+export function getVtableSchema() {
   if (!window) return
   const url = `${
     window.location.origin

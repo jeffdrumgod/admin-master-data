@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import Modal from '@vtex/styleguide/lib/Modal'
-import Button from '@vtex/styleguide/lib/Button'
+import { Modal, Button } from 'vtex.styleguide'
 
 export default class DialogModal extends Component {
   constructor(props) {

@@ -5,8 +5,8 @@
     "lint": "eslint **.js"
   },
   "dependencies": {
-    "@vtex/styleguide": "^2.0.0-rc.40",
     "axios": "^0.18.0",
+    "react-jsonschema-form": "^1.0.3",
     "react-jsonschema-table": "0.0.3-beta.3"
   },
   "devDependencies": {
